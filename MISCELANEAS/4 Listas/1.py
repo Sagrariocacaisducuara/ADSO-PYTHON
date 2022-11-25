@@ -12,7 +12,6 @@ for indice in range(tam):
 print(lista,"\nEl tamaño de la lista es: ", len(lista))
 
 suma=0
-
 for indice in range(len(lista)):
     suma += lista[indice]
 promedio = suma//len(lista)
