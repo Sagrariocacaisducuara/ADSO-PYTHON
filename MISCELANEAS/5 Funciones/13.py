@@ -27,5 +27,5 @@ lista=[]
 for indice in range(tam):
     lista.append(round(random.random()*100))
     par_impar(indice,lista)
-print(lista,"\nEl tamaño de la lista es: ", len(lista))
+print(lista,"\nLa lista tiene un tamaño de: ", len(lista))
 print('La suma de los pares es de:',par_impar(indice,lista),'\nY el promedio de los impares es de:',par_impar2(indice,lista))

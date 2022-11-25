@@ -15,7 +15,7 @@ def l_promedio(lista):
 import random
 
 lista=[int(random.random()*100) for i in range (random.randint(10,25))]
-print(lista,"\nEl tamaño de la lista es: ", len(lista))
+print(lista,"\nLa lista tiene un tamaño de: ", len(lista))
 
 print('La suma es de la lista es:',l_suma(lista),'Y el promedio es: ',l_promedio(lista))
 

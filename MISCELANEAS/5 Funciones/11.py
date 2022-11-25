@@ -14,7 +14,7 @@ lista=[]
 
 for indice in range(tam):
     lista.append(round(random.random()*100))
-print(lista,"\nEl tamaño de la lista es: ", len(lista))
+print(lista,"\nLa lista tiene un tamaño de: ", len(lista))
 
 suma=0
 

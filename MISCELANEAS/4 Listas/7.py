@@ -4,7 +4,7 @@ aleatorios. Encuentre la suma y el promedio de los números de la lista. '''
 import random
 
 lista=[int(random.random()*100) for i in range (random.randint(10,25))]
-print(lista,"\nEl tamaño de la lista es: ", len(lista))
+print(lista,"\nLa lista tiene un tamaño de: ", len(lista))
 
 suma=0
 

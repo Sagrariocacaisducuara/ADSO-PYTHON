@@ -15,5 +15,5 @@ for indice in range(tam):
     else:
         sumaimpar += lista[indice]
         promedioimpar = sumaimpar//len(lista)
-print(lista,"\nEl tamaño de la lista es: ", len(lista))
+print(lista,"\nla lista tiene un tamaño de: ", len(lista))
 print('La suma de los pares es de:',sumaimpar,'\nY el promedio de los impares es de:',promedioimpar)
